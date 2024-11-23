@@ -1,3 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://steamvote.c72umyoyyqio.ap-northeast-2.rds.amazonaws.com/steamvote
+    username: admin
+    password: steamvote0191
+
+
 jwt:
   password: ZmlmdHlmaXZlIUAjfiFAIyVAQVNEYXNkYWRhc2Rhc2Rhc2QxMj
 
